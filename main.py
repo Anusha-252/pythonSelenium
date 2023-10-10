@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
-from login import test_login
-from category import category
+from Pages.login import test_login
+from Pages.category import category
 
 if __name__ == "__main__":
     pytest.main(["-v","basetest.py"])
